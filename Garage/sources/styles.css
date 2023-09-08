@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Rajdhani, Barlow, sans-serif;
+}
+
+header {
+    /* Header dimensions */
+    height: 20rem;
+    width: auto;   
+    margin: 10px;
+    padding: 5px;
+
+    /* Header colors */
+    background-color: #262526FF;
+    color: #D92332FF;
+
+    /* Header arrangement */
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: flex-end;
+}
+
+.logoGarage {
+    height: 75px;
+    width: auto;
+}
+
+footer {
+    /* Header dimensions */
+    height: 20rem;
+    width: auto;   
+    margin: 10px;
+    padding: 5px;
+
+    /* Header colors */
+    background-color: #262526FF;
+    color: #D92332FF;
+
+}
